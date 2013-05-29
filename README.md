@@ -10,6 +10,10 @@ cd coffee-script-compilation-experiment
 npm install
 
 npm test #=>
+#
+# > coffee-script-compilation-experiment@0.0.0 test /your/path/to/coffee-compilation
+# > node js/a; node js/b; node js/c/d
+#
 # this is a.
 # this is b.
 # this is c/d.
