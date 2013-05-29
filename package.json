@@ -1,0 +1,17 @@
+{
+  "name": "coffee-script-compilation-experiment",
+  "version": "0.0.0",
+  "dependencies": {
+    "coffee-script": "*"
+  },
+  "scripts": {
+    "test": "node js/a; node js/b; node js/c/d",
+    "postinstall": "node_modules/coffee-script/bin/coffee -o js -c coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaosf/coffee-script-compilation"
+  },
+  "author": "ka",
+  "license": "MIT"
+}
