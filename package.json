@@ -5,8 +5,8 @@
     "coffee-script": "*"
   },
   "scripts": {
-    "test": "node js/a; node js/b; node js/c/d",
-    "postinstall": "node_modules/coffee-script/bin/coffee -o js -c coffee"
+    "test": "node js/a; node js/b; node js/c/d; node e",
+    "postinstall": "node_modules/coffee-script/bin/coffee -o js -c coffee; node_modules/coffee-script/bin/coffee -c ./*.coffee"
   },
   "repository": {
     "type": "git",
